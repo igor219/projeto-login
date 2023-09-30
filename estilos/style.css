@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --cor01: #49a09d;
-    --cor02: #5f2c82;
+    --cor01: #162b34;
+    --cor02: #e66f09;
 }
 
 *{
@@ -36,6 +36,9 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem{
