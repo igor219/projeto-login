@@ -116,7 +116,7 @@ form > input[type=submit]{
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 form > input[type=submit]:hover{
@@ -134,10 +134,14 @@ form > a.botao{
     background-color: var(--cor01);
     color: white;
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
 form > a.botao:hover{
     background-color: var(--cor02);
+}
+
+form >a.botao > span{
+    font-size: 1em;
 }
